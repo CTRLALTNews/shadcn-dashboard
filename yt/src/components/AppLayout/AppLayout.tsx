@@ -18,7 +18,8 @@ const AppLayout = ({children}:IAppLayoutProps) => {
         </header>
         <Separator />
         <main className="w-full h-full p-4">{children}</main>
-      </div>  
+      </div>
+
     </div>
   )
 }
